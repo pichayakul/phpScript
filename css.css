@@ -1,0 +1,83 @@
+.dropbutton {
+    background-color: orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: -180px;
+    background-color: yellow;
+    width: 450px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content .choice {
+    cursor: pointer;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content .choice:hover{
+    background-color: grey;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbutton {
+    background-color: orangered;
+}
+.head{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.main{
+    padding: 10px;
+    margin-left: 30px;
+    border-style: solid;
+    width: 700px;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#name{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.bmi{
+    margin-top:30px;
+    font-size: 20px;
+    display: none;
+}
+.bmr{
+    margin-top:30px;
+    font-size: 20px;
+    display: none;
+}
+.cal{
+    margin-top: 10px;
+    font-size: 20px;
+    display: none;
+}
+.submit{
+    font-size: 20px;
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+.submit:hover{
+    background-color: greenyellow;
+}
